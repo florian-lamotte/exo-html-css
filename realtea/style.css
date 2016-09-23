@@ -1,0 +1,173 @@
+body {
+	background-image: url('images/bg_body.jpg');
+	margin: 0;
+}
+
+nav div {
+	position:absolute;
+	width:100%;
+	height:20px;
+	background-color: green;
+	opacity: 0.5;
+}
+
+nav ul {
+	position:relative;
+	float: right;
+	text-align: right;
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding-right:25%;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: white;
+}
+
+.header {
+	background-image: url('images/bg_header.jpg');
+	background-repeat: no-repeat;
+	background-position:50% 50%;
+	width:100%;
+	height: 622px;
+	position: absolute;
+}
+
+.header img {
+	margin-top: 2%;
+	margin-left: 24%;
+}
+
+.section {
+	position:relative;
+}
+
+.tasse_de_the {
+	position:absolute;
+	display:inline-block;
+	margin-top:12%;
+	margin-left:25%;
+}
+
+.h2 {
+	margin-top:13%;
+	margin-left:44%;
+}
+
+.pub {
+	margin-top:30px;
+	margin-left: 25%;
+}
+
+.bloc {
+	display:inline-block;
+	width:300px;
+	margin-right:20px;
+}
+
+.actualite {
+	float:left;
+	background-image: url('images/bg_news.jpg');
+	background-repeat: no-repeat;
+	width:560px;
+	height:388px;
+	margin-top:50px;
+	margin-left:24%;
+	padding-top: 60px;
+}
+
+.actualite img {
+	float:left;
+	padding-left: 10px;
+}
+
+.news {
+	padding-left:60px;
+}
+
+.news a {
+	color:red;
+	text-decoration:none;
+}
+
+.news h4 {
+	margin:0;
+	padding:0;
+}
+
+.infos {
+	float:left;
+	width:350px;
+	margin-top:50px;
+	margin-left:20px;
+}
+
+.infos h3 {
+	margin:0;
+	padding:0;
+}
+
+.espace ul {
+	list-style-type: none;
+  	padding: 0;
+  	margin: 0;
+  	width: 9em;
+}
+
+.espace li {
+	background-image: url('images/puce_feuille.png');
+  	background-repeat: no-repeat;
+  	background-position: 0 50%;
+  	padding: 3px 0 3px 20px;
+}
+
+.colonne-1 {
+	display:inline-block;
+}
+
+.colonne-2 {
+	display:inline-block;
+}
+
+.newsletter form {
+	position:absolute;
+}
+
+.submit {
+	background-image: url('images/bg_btn.jpg');
+  	background-repeat: no-repeat;
+  	width:103px;
+  	height:26px;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.pot {
+	margin-left:150px;
+}
+
+.footer {
+	clear:both;
+	background-image: url('images/bg_footer.png');
+  	background-repeat: no-repeat;
+  	background-position:50% 50%;
+	overflow: hidden;
+}
+
+.footer p {
+	margin-top:10px;
+	margin-left:27%;
+	vertical-align: middle;
+}
+
+.footer img {
+	vertical-align:middle;
+}

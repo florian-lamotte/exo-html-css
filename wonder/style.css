@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+	background-image: url('img/bg-body.jpg');
+	margin:0;
+	padding:0;
+	line-height: 1;
+}
+
+h4 {
+	color:orange;
+	background-color:#1C1C1C;
+	padding:5px 0 5px 10px;
+	margin-bottom:30px;
+}
+
+.container {
+	margin:30px 20% 0 20%;
+}
+
+.header nav ul {
+	float:right;
+	padding:3px 0 4px 0;
+	background-color:#1C1C1C;
+}
+
+.header nav li {
+	display: inline-block;
+	margin-right:20px;
+}
+
+.header nav li a {
+	text-decoration: none;
+	color: white;
+}
+
+.header nav li:first-child {
+	margin-left:10px;
+}
+
+.header nav li:last-child {
+	margin-right:10px;
+}
+
+.header {
+	margin-bottom:30px;
+}
+
+.banniere {
+	margin-bottom:30px;
+}
+
+.slider {
+	display:inline-block;
+	width:600px;
+}
+
+.text-banniere {
+	display:inline-block;
+	vertical-align:top;
+	width:250px;
+	margin-left:20px;
+	margin-top:9%;
+}
+
+.work img {
+	width:100%;
+	margin-bottom:9%;
+}
+
+.work-1, .work-2, .work-3, .work-4 {
+	display:inline-block;
+	width:23%;
+	height:300px;
+	background-color:white;
+	text-align:center;
+}
+
+.work-1, .work-2, .work-3 {
+	margin-right:2%;
+}
+
+.work {
+	margin-bottom:30px;
+}
+
+.news, .video {
+	display:inline-block;
+	width:48%;
+}
+
+.news {
+	float:left;
+}
+
+.awesome {
+	display:inline-block;
+	width:200px;
+}
+
+.text-awesome {
+	display:inline-block;
+	vertical-align:top;
+	margin-left:10px;
+	margin-top:20px;
+	width:200px;
+}
+
+.video {
+	float:right;
+	margin-bottom:30px;
+}
+
+.image-video img {
+	width:100%;
+}
+
+.footer {
+	clear:both;
+	height:500px;
+	background-color:#333333;
+}
+
+.container-footer {
+	margin:0 20% 0 20%;
+}
+
+.container-footer h3 {
+	margin-bottom:20px;
+}
+
+.contactus, .tweets, .posts, .flickr {
+	display:inline-block;
+	vertical-align:top;
+	margin-top:30px;
+	color:white;
+	width:23%;
+}
+
+.contactus, .tweets, .posts {
+	margin-right:20px;
+}
+
+.flickr img {
+	display:inline-block;
+	width:50px;
+}
+
+.copyright {
+	margin-top:30px;
+	background-color:#1C1C1C;
+	color:white;
+	height:20px;
+	padding:10px 10px 10px 10px;
+}
+
+.copyright p {
+	float:left;
+}
+
+.copyright nav ul {
+	float: right;
+	background-color:#1C1C1C;
+}
+
+.copyright nav li {
+	display: inline-block;
+}
+
+.copyright nav li a {
+	text-decoration: none;
+	color: white;
+}
